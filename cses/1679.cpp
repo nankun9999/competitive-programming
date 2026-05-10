@@ -34,7 +34,7 @@ int main() {
             }
         }
     }
-    if (topo.size() == 0) {
+    if (topo.size() != n) {
         cout << "IMPOSSIBLE";
         return 0;
     }
